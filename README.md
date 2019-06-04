@@ -23,3 +23,14 @@ On my todo list:
 
 The codebase is as of now a bit of a mess, everything is slightly more complicated than it needs to be and the overall performances are not optimal.
 The interfaces will change dramatically in the future, I have never written an emulator, and the patterns to use were slightly blurry to me.
+
+## Screenshots
+
+Debugger
+![Notty debugger interface](https://user-images.githubusercontent.com/146049/58849095-fa718880-86c3-11e9-973a-c8287f1a7d3f.png)
+
+Notty frontend (running Tetris)
+![Notty frontend](https://user-images.githubusercontent.com/146049/58849093-f8a7c500-86c3-11e9-8c6b-3ff5622f5d92.png)
+
+SDL frontend (running Tobu Tobu Girl)
+![SDL frontend](https://user-images.githubusercontent.com/146049/58849088-f47ba780-86c3-11e9-94da-cf8d07729544.png)
