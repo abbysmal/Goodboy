@@ -1,0 +1,13 @@
+(executable
+ (name main)
+ (libraries
+    bos
+    cmdliner
+    fpath
+    bigstringaf
+    pretty_opcodes
+    goodboy
+    notty.unix
+    hex
+    )
+  )

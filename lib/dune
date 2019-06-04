@@ -1,0 +1,4 @@
+(library
+ (name goodboy)
+ (libraries bigstringaf sexplib)
+ (preprocess (pps ppx_sexp_conv)))

@@ -1,0 +1,7851 @@
+{
+	"unprefixed": {
+		"0x3e": {
+			"mnemonic": "LD",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "A",
+			"operand2": "d8",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x3d": {
+			"mnemonic": "DEC",
+			"flags_ZHNC": [
+				"Z",
+				"1",
+				"H",
+				"-"
+			],
+			"operand1": "A",
+			"operand_count": 1,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0xe6": {
+			"mnemonic": "AND",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"1",
+				"0"
+			],
+			"operand1": "d8",
+			"operand_count": 1,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x3f": {
+			"mnemonic": "CCF",
+			"flags_ZHNC": [
+				"-",
+				"0",
+				"0",
+				"C"
+			],
+			"operand_count": 0,
+			"cycles": [
+				4
+			],
+			"bytes": 1
+		},
+		"0x3a": {
+			"mnemonic": "LD",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "A",
+			"operand2": "(HL-)",
+			"operand_count": 2,
+			"bytes": 1,
+			"cycles": [
+				8
+			]
+		},
+		"0x3c": {
+			"mnemonic": "INC",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"H",
+				"-"
+			],
+			"operand1": "A",
+			"operand_count": 1,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0x3b": {
+			"mnemonic": "DEC",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "SP",
+			"operand_count": 1,
+			"bytes": 1,
+			"cycles": [
+				8
+			]
+		},
+		"0xfb": {
+			"mnemonic": "EI",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand_count": 0,
+			"cycles": [
+				4
+			],
+			"bytes": 1
+		},
+		"0xdc": {
+			"mnemonic": "CALL",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "C",
+			"operand2": "a16",
+			"operand_count": 2,
+			"bytes": 3,
+			"cycles": [
+				24,
+				12
+			]
+		},
+		"0x28": {
+			"mnemonic": "JR",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "Z",
+			"operand2": "r8",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				12,
+				8
+			]
+		},
+		"0x29": {
+			"mnemonic": "ADD",
+			"flags_ZHNC": [
+				"-",
+				"0",
+				"H",
+				"C"
+			],
+			"operand1": "HL",
+			"operand2": "HL",
+			"operand_count": 2,
+			"bytes": 1,
+			"cycles": [
+				8
+			]
+		},
+		"0xcf": {
+			"mnemonic": "RST",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "08H",
+			"operand_count": 1,
+			"bytes": 1,
+			"cycles": [
+				16
+			]
+		},
+		"0xf9": {
+			"mnemonic": "LD",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "SP",
+			"operand2": "HL",
+			"operand_count": 2,
+			"bytes": 1,
+			"cycles": [
+				8
+			]
+		},
+		"0xfa": {
+			"mnemonic": "LD",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "A",
+			"operand2": "(a16)",
+			"operand_count": 2,
+			"bytes": 3,
+			"cycles": [
+				16
+			]
+		},
+		"0x22": {
+			"mnemonic": "LD",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "(HL+)",
+			"operand2": "A",
+			"operand_count": 2,
+			"bytes": 1,
+			"cycles": [
+				8
+			]
+		},
+		"0x23": {
+			"mnemonic": "INC",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "HL",
+			"operand_count": 1,
+			"bytes": 1,
+			"cycles": [
+				8
+			]
+		},
+		"0x20": {
+			"mnemonic": "JR",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "NZ",
+			"operand2": "r8",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				12,
+				8
+			]
+		},
+		"0x21": {
+			"mnemonic": "LD",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "HL",
+			"operand2": "d16",
+			"operand_count": 2,
+			"bytes": 3,
+			"cycles": [
+				12
+			]
+		},
+		"0x26": {
+			"mnemonic": "LD",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "H",
+			"operand2": "d8",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x27": {
+			"mnemonic": "DAA",
+			"flags_ZHNC": [
+				"Z",
+				"-",
+				"0",
+				"C"
+			],
+			"operand_count": 0,
+			"cycles": [
+				4
+			],
+			"bytes": 1
+		},
+		"0x24": {
+			"mnemonic": "INC",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"H",
+				"-"
+			],
+			"operand1": "H",
+			"operand_count": 1,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0x25": {
+			"mnemonic": "DEC",
+			"flags_ZHNC": [
+				"Z",
+				"1",
+				"H",
+				"-"
+			],
+			"operand1": "H",
+			"operand_count": 1,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0xba": {
+			"mnemonic": "CP",
+			"flags_ZHNC": [
+				"Z",
+				"1",
+				"H",
+				"C"
+			],
+			"operand1": "D",
+			"operand_count": 1,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0xe2": {
+			"mnemonic": "LD",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "(C)",
+			"operand2": "A",
+			"operand_count": 2,
+			"bytes": 1,
+			"cycles": [
+				8
+			]
+		},
+		"0x7d": {
+			"mnemonic": "LD",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "A",
+			"operand2": "L",
+			"operand_count": 2,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0x35": {
+			"mnemonic": "DEC",
+			"flags_ZHNC": [
+				"Z",
+				"1",
+				"H",
+				"-"
+			],
+			"operand1": "(HL)",
+			"operand_count": 1,
+			"bytes": 1,
+			"cycles": [
+				12
+			]
+		},
+		"0x34": {
+			"mnemonic": "INC",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"H",
+				"-"
+			],
+			"operand1": "(HL)",
+			"operand_count": 1,
+			"bytes": 1,
+			"cycles": [
+				12
+			]
+		},
+		"0x37": {
+			"mnemonic": "SCF",
+			"flags_ZHNC": [
+				"-",
+				"0",
+				"0",
+				"1"
+			],
+			"operand_count": 0,
+			"cycles": [
+				4
+			],
+			"bytes": 1
+		},
+		"0x36": {
+			"mnemonic": "LD",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "(HL)",
+			"operand2": "d8",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				12
+			]
+		},
+		"0x31": {
+			"mnemonic": "LD",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "SP",
+			"operand2": "d16",
+			"operand_count": 2,
+			"bytes": 3,
+			"cycles": [
+				12
+			]
+		},
+		"0x30": {
+			"mnemonic": "JR",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "NC",
+			"operand2": "r8",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				12,
+				8
+			]
+		},
+		"0x33": {
+			"mnemonic": "INC",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "SP",
+			"operand_count": 1,
+			"bytes": 1,
+			"cycles": [
+				8
+			]
+		},
+		"0x32": {
+			"mnemonic": "LD",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "(HL-)",
+			"operand2": "A",
+			"operand_count": 2,
+			"bytes": 1,
+			"cycles": [
+				8
+			]
+		},
+		"0x39": {
+			"mnemonic": "ADD",
+			"flags_ZHNC": [
+				"-",
+				"0",
+				"H",
+				"C"
+			],
+			"operand1": "HL",
+			"operand2": "SP",
+			"operand_count": 2,
+			"bytes": 1,
+			"cycles": [
+				8
+			]
+		},
+		"0x38": {
+			"mnemonic": "JR",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "C",
+			"operand2": "r8",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				12,
+				8
+			]
+		},
+		"0xc0": {
+			"mnemonic": "RET",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "NZ",
+			"operand_count": 1,
+			"bytes": 1,
+			"cycles": [
+				20,
+				8
+			]
+		},
+		"0xe1": {
+			"mnemonic": "POP",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "HL",
+			"operand_count": 1,
+			"bytes": 1,
+			"cycles": [
+				12
+			]
+		},
+		"0x88": {
+			"mnemonic": "ADC",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"H",
+				"C"
+			],
+			"operand1": "A",
+			"operand2": "B",
+			"operand_count": 2,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0x89": {
+			"mnemonic": "ADC",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"H",
+				"C"
+			],
+			"operand1": "A",
+			"operand2": "C",
+			"operand_count": 2,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0x2b": {
+			"mnemonic": "DEC",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "HL",
+			"operand_count": 1,
+			"bytes": 1,
+			"cycles": [
+				8
+			]
+		},
+		"0x2c": {
+			"mnemonic": "INC",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"H",
+				"-"
+			],
+			"operand1": "L",
+			"operand_count": 1,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0x2a": {
+			"mnemonic": "LD",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "A",
+			"operand2": "(HL+)",
+			"operand_count": 2,
+			"bytes": 1,
+			"cycles": [
+				8
+			]
+		},
+		"0x2f": {
+			"mnemonic": "CPL",
+			"flags_ZHNC": [
+				"-",
+				"1",
+				"1",
+				"-"
+			],
+			"operand_count": 0,
+			"cycles": [
+				4
+			],
+			"bytes": 1
+		},
+		"0xff": {
+			"mnemonic": "RST",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "38H",
+			"operand_count": 1,
+			"bytes": 1,
+			"cycles": [
+				16
+			]
+		},
+		"0x2d": {
+			"mnemonic": "DEC",
+			"flags_ZHNC": [
+				"Z",
+				"1",
+				"H",
+				"-"
+			],
+			"operand1": "L",
+			"operand_count": 1,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0x2e": {
+			"mnemonic": "LD",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "L",
+			"operand2": "d8",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x5c": {
+			"mnemonic": "LD",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "E",
+			"operand2": "H",
+			"operand_count": 2,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0x5b": {
+			"mnemonic": "LD",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "E",
+			"operand2": "E",
+			"operand_count": 2,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0x09": {
+			"mnemonic": "ADD",
+			"flags_ZHNC": [
+				"-",
+				"0",
+				"H",
+				"C"
+			],
+			"operand1": "HL",
+			"operand2": "BC",
+			"operand_count": 2,
+			"bytes": 1,
+			"cycles": [
+				8
+			]
+		},
+		"0x08": {
+			"mnemonic": "LD",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "(a16)",
+			"operand2": "SP",
+			"operand_count": 2,
+			"bytes": 3,
+			"cycles": [
+				20
+			]
+		},
+		"0x5f": {
+			"mnemonic": "LD",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "E",
+			"operand2": "A",
+			"operand_count": 2,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0x5e": {
+			"mnemonic": "LD",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "E",
+			"operand2": "(HL)",
+			"operand_count": 2,
+			"bytes": 1,
+			"cycles": [
+				8
+			]
+		},
+		"0x5d": {
+			"mnemonic": "LD",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "E",
+			"operand2": "L",
+			"operand_count": 2,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0x03": {
+			"mnemonic": "INC",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "BC",
+			"operand_count": 1,
+			"bytes": 1,
+			"cycles": [
+				8
+			]
+		},
+		"0x02": {
+			"mnemonic": "LD",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "(BC)",
+			"operand2": "A",
+			"operand_count": 2,
+			"bytes": 1,
+			"cycles": [
+				8
+			]
+		},
+		"0x01": {
+			"mnemonic": "LD",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "BC",
+			"operand2": "d16",
+			"operand_count": 2,
+			"bytes": 3,
+			"cycles": [
+				12
+			]
+		},
+		"0x00": {
+			"mnemonic": "NOP",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand_count": 0,
+			"cycles": [
+				4
+			],
+			"bytes": 1
+		},
+		"0x07": {
+			"mnemonic": "RLCA",
+			"flags_ZHNC": [
+				"0",
+				"0",
+				"0",
+				"C"
+			],
+			"operand_count": 0,
+			"cycles": [
+				4
+			],
+			"bytes": 1
+		},
+		"0x06": {
+			"mnemonic": "LD",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "B",
+			"operand2": "d8",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x05": {
+			"mnemonic": "DEC",
+			"flags_ZHNC": [
+				"Z",
+				"1",
+				"H",
+				"-"
+			],
+			"operand1": "B",
+			"operand_count": 1,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0x04": {
+			"mnemonic": "INC",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"H",
+				"-"
+			],
+			"operand1": "B",
+			"operand_count": 1,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0x40": {
+			"mnemonic": "LD",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "B",
+			"operand2": "B",
+			"operand_count": 2,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0x41": {
+			"mnemonic": "LD",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "B",
+			"operand2": "C",
+			"operand_count": 2,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0x42": {
+			"mnemonic": "LD",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "B",
+			"operand2": "D",
+			"operand_count": 2,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0x43": {
+			"mnemonic": "LD",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "B",
+			"operand2": "E",
+			"operand_count": 2,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0x44": {
+			"mnemonic": "LD",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "B",
+			"operand2": "H",
+			"operand_count": 2,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0x45": {
+			"mnemonic": "LD",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "B",
+			"operand2": "L",
+			"operand_count": 2,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0x46": {
+			"mnemonic": "LD",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "B",
+			"operand2": "(HL)",
+			"operand_count": 2,
+			"bytes": 1,
+			"cycles": [
+				8
+			]
+		},
+		"0x47": {
+			"mnemonic": "LD",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "B",
+			"operand2": "A",
+			"operand_count": 2,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0x48": {
+			"mnemonic": "LD",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "C",
+			"operand2": "B",
+			"operand_count": 2,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0x49": {
+			"mnemonic": "LD",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "C",
+			"operand2": "C",
+			"operand_count": 2,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0xe7": {
+			"mnemonic": "RST",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "20H",
+			"operand_count": 1,
+			"bytes": 1,
+			"cycles": [
+				16
+			]
+		},
+		"0xaf": {
+			"mnemonic": "XOR",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"0",
+				"0"
+			],
+			"operand1": "A",
+			"operand_count": 1,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0xae": {
+			"mnemonic": "XOR",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"0",
+				"0"
+			],
+			"operand1": "(HL)",
+			"operand_count": 1,
+			"bytes": 1,
+			"cycles": [
+				8
+			]
+		},
+		"0xad": {
+			"mnemonic": "XOR",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"0",
+				"0"
+			],
+			"operand1": "L",
+			"operand_count": 1,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0xac": {
+			"mnemonic": "XOR",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"0",
+				"0"
+			],
+			"operand1": "H",
+			"operand_count": 1,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0xab": {
+			"mnemonic": "XOR",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"0",
+				"0"
+			],
+			"operand1": "E",
+			"operand_count": 1,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0xaa": {
+			"mnemonic": "XOR",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"0",
+				"0"
+			],
+			"operand1": "D",
+			"operand_count": 1,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0x63": {
+			"mnemonic": "LD",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "H",
+			"operand2": "E",
+			"operand_count": 2,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0xe8": {
+			"mnemonic": "ADD",
+			"flags_ZHNC": [
+				"0",
+				"0",
+				"H",
+				"C"
+			],
+			"operand1": "SP",
+			"operand2": "r8",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				16
+			]
+		},
+		"0xef": {
+			"mnemonic": "RST",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "28H",
+			"operand_count": 1,
+			"bytes": 1,
+			"cycles": [
+				16
+			]
+		},
+		"0x4a": {
+			"mnemonic": "LD",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "C",
+			"operand2": "D",
+			"operand_count": 2,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0x4b": {
+			"mnemonic": "LD",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "C",
+			"operand2": "E",
+			"operand_count": 2,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0x4c": {
+			"mnemonic": "LD",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "C",
+			"operand2": "H",
+			"operand_count": 2,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0x4d": {
+			"mnemonic": "LD",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "C",
+			"operand2": "L",
+			"operand_count": 2,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0x4e": {
+			"mnemonic": "LD",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "C",
+			"operand2": "(HL)",
+			"operand_count": 2,
+			"bytes": 1,
+			"cycles": [
+				8
+			]
+		},
+		"0x4f": {
+			"mnemonic": "LD",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "C",
+			"operand2": "A",
+			"operand_count": 2,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0x53": {
+			"mnemonic": "LD",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "D",
+			"operand2": "E",
+			"operand_count": 2,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0x52": {
+			"mnemonic": "LD",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "D",
+			"operand2": "D",
+			"operand_count": 2,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0x51": {
+			"mnemonic": "LD",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "D",
+			"operand2": "C",
+			"operand_count": 2,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0x50": {
+			"mnemonic": "LD",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "D",
+			"operand2": "B",
+			"operand_count": 2,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0x57": {
+			"mnemonic": "LD",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "D",
+			"operand2": "A",
+			"operand_count": 2,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0x56": {
+			"mnemonic": "LD",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "D",
+			"operand2": "(HL)",
+			"operand_count": 2,
+			"bytes": 1,
+			"cycles": [
+				8
+			]
+		},
+		"0x55": {
+			"mnemonic": "LD",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "D",
+			"operand2": "L",
+			"operand_count": 2,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0x54": {
+			"mnemonic": "LD",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "D",
+			"operand2": "H",
+			"operand_count": 2,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0x0c": {
+			"mnemonic": "INC",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"H",
+				"-"
+			],
+			"operand1": "C",
+			"operand_count": 1,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0x0b": {
+			"mnemonic": "DEC",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "BC",
+			"operand_count": 1,
+			"bytes": 1,
+			"cycles": [
+				8
+			]
+		},
+		"0x0a": {
+			"mnemonic": "LD",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "A",
+			"operand2": "(BC)",
+			"operand_count": 2,
+			"bytes": 1,
+			"cycles": [
+				8
+			]
+		},
+		"0x58": {
+			"mnemonic": "LD",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "E",
+			"operand2": "B",
+			"operand_count": 2,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0x0f": {
+			"mnemonic": "RRCA",
+			"flags_ZHNC": [
+				"0",
+				"0",
+				"0",
+				"C"
+			],
+			"operand_count": 0,
+			"cycles": [
+				4
+			],
+			"bytes": 1
+		},
+		"0x0e": {
+			"mnemonic": "LD",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "C",
+			"operand2": "d8",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x0d": {
+			"mnemonic": "DEC",
+			"flags_ZHNC": [
+				"Z",
+				"1",
+				"H",
+				"-"
+			],
+			"operand1": "C",
+			"operand_count": 1,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0xf5": {
+			"mnemonic": "PUSH",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "AF",
+			"operand_count": 1,
+			"bytes": 1,
+			"cycles": [
+				16
+			]
+		},
+		"0xfe": {
+			"mnemonic": "CP",
+			"flags_ZHNC": [
+				"Z",
+				"1",
+				"H",
+				"C"
+			],
+			"operand1": "d8",
+			"operand_count": 1,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0xdf": {
+			"mnemonic": "RST",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "18H",
+			"operand_count": 1,
+			"bytes": 1,
+			"cycles": [
+				16
+			]
+		},
+		"0xf7": {
+			"mnemonic": "RST",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "30H",
+			"operand_count": 1,
+			"bytes": 1,
+			"cycles": [
+				16
+			]
+		},
+		"0xa9": {
+			"mnemonic": "XOR",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"0",
+				"0"
+			],
+			"operand1": "C",
+			"operand_count": 1,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0xa8": {
+			"mnemonic": "XOR",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"0",
+				"0"
+			],
+			"operand1": "B",
+			"operand_count": 1,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0xa7": {
+			"mnemonic": "AND",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"1",
+				"0"
+			],
+			"operand1": "A",
+			"operand_count": 1,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0xa6": {
+			"mnemonic": "AND",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"1",
+				"0"
+			],
+			"operand1": "(HL)",
+			"operand_count": 1,
+			"bytes": 1,
+			"cycles": [
+				8
+			]
+		},
+		"0xa5": {
+			"mnemonic": "AND",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"1",
+				"0"
+			],
+			"operand1": "L",
+			"operand_count": 1,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0xa4": {
+			"mnemonic": "AND",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"1",
+				"0"
+			],
+			"operand1": "H",
+			"operand_count": 1,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0xa3": {
+			"mnemonic": "AND",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"1",
+				"0"
+			],
+			"operand1": "E",
+			"operand_count": 1,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0xa2": {
+			"mnemonic": "AND",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"1",
+				"0"
+			],
+			"operand1": "D",
+			"operand_count": 1,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0xa1": {
+			"mnemonic": "AND",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"1",
+				"0"
+			],
+			"operand1": "C",
+			"operand_count": 1,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0xa0": {
+			"mnemonic": "AND",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"1",
+				"0"
+			],
+			"operand1": "B",
+			"operand_count": 1,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0xf6": {
+			"mnemonic": "OR",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"0",
+				"0"
+			],
+			"operand1": "d8",
+			"operand_count": 1,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x7a": {
+			"mnemonic": "LD",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "A",
+			"operand2": "D",
+			"operand_count": 2,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0xf2": {
+			"mnemonic": "LD",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "A",
+			"operand2": "(C)",
+			"operand_count": 2,
+			"bytes": 1,
+			"cycles": [
+				8
+			]
+		},
+		"0x7c": {
+			"mnemonic": "LD",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "A",
+			"operand2": "H",
+			"operand_count": 2,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0x7b": {
+			"mnemonic": "LD",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "A",
+			"operand2": "E",
+			"operand_count": 2,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0x7e": {
+			"mnemonic": "LD",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "A",
+			"operand2": "(HL)",
+			"operand_count": 2,
+			"bytes": 1,
+			"cycles": [
+				8
+			]
+		},
+		"0x5a": {
+			"mnemonic": "LD",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "E",
+			"operand2": "D",
+			"operand_count": 2,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0x7f": {
+			"mnemonic": "LD",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "A",
+			"operand2": "A",
+			"operand_count": 2,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0xf0": {
+			"mnemonic": "LDH",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "A",
+			"operand2": "(a8)",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				12
+			]
+		},
+		"0x68": {
+			"mnemonic": "LD",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "L",
+			"operand2": "B",
+			"operand_count": 2,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0x69": {
+			"mnemonic": "LD",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "L",
+			"operand2": "C",
+			"operand_count": 2,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0x66": {
+			"mnemonic": "LD",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "H",
+			"operand2": "(HL)",
+			"operand_count": 2,
+			"bytes": 1,
+			"cycles": [
+				8
+			]
+		},
+		"0x67": {
+			"mnemonic": "LD",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "H",
+			"operand2": "A",
+			"operand_count": 2,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0x64": {
+			"mnemonic": "LD",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "H",
+			"operand2": "H",
+			"operand_count": 2,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0x65": {
+			"mnemonic": "LD",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "H",
+			"operand2": "L",
+			"operand_count": 2,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0x62": {
+			"mnemonic": "LD",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "H",
+			"operand2": "D",
+			"operand_count": 2,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0x59": {
+			"mnemonic": "LD",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "E",
+			"operand2": "C",
+			"operand_count": 2,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0x60": {
+			"mnemonic": "LD",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "H",
+			"operand2": "B",
+			"operand_count": 2,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0x61": {
+			"mnemonic": "LD",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "H",
+			"operand2": "C",
+			"operand_count": 2,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0xce": {
+			"mnemonic": "ADC",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"H",
+				"C"
+			],
+			"operand1": "A",
+			"operand2": "d8",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0xcd": {
+			"mnemonic": "CALL",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "a16",
+			"operand_count": 1,
+			"bytes": 3,
+			"cycles": [
+				24
+			]
+		},
+		"0xb8": {
+			"mnemonic": "CP",
+			"flags_ZHNC": [
+				"Z",
+				"1",
+				"H",
+				"C"
+			],
+			"operand1": "B",
+			"operand_count": 1,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0xb9": {
+			"mnemonic": "CP",
+			"flags_ZHNC": [
+				"Z",
+				"1",
+				"H",
+				"C"
+			],
+			"operand1": "C",
+			"operand_count": 1,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0xca": {
+			"mnemonic": "JP",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "Z",
+			"operand2": "a16",
+			"operand_count": 2,
+			"bytes": 3,
+			"cycles": [
+				16,
+				12
+			]
+		},
+		"0xcc": {
+			"mnemonic": "CALL",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "Z",
+			"operand2": "a16",
+			"operand_count": 2,
+			"bytes": 3,
+			"cycles": [
+				24,
+				12
+			]
+		},
+		"0xcb": {
+			"mnemonic": "PREFIX",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "CB",
+			"operand_count": 1,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0xb2": {
+			"mnemonic": "OR",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"0",
+				"0"
+			],
+			"operand1": "D",
+			"operand_count": 1,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0xb3": {
+			"mnemonic": "OR",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"0",
+				"0"
+			],
+			"operand1": "E",
+			"operand_count": 1,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0xb0": {
+			"mnemonic": "OR",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"0",
+				"0"
+			],
+			"operand1": "B",
+			"operand_count": 1,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0xb1": {
+			"mnemonic": "OR",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"0",
+				"0"
+			],
+			"operand1": "C",
+			"operand_count": 1,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0xb6": {
+			"mnemonic": "OR",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"0",
+				"0"
+			],
+			"operand1": "(HL)",
+			"operand_count": 1,
+			"bytes": 1,
+			"cycles": [
+				8
+			]
+		},
+		"0xb7": {
+			"mnemonic": "OR",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"0",
+				"0"
+			],
+			"operand1": "A",
+			"operand_count": 1,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0xb4": {
+			"mnemonic": "OR",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"0",
+				"0"
+			],
+			"operand1": "H",
+			"operand_count": 1,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0xb5": {
+			"mnemonic": "OR",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"0",
+				"0"
+			],
+			"operand1": "L",
+			"operand_count": 1,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0xe5": {
+			"mnemonic": "PUSH",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "HL",
+			"operand_count": 1,
+			"bytes": 1,
+			"cycles": [
+				16
+			]
+		},
+		"0xd7": {
+			"mnemonic": "RST",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "10H",
+			"operand_count": 1,
+			"bytes": 1,
+			"cycles": [
+				16
+			]
+		},
+		"0x6f": {
+			"mnemonic": "LD",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "L",
+			"operand2": "A",
+			"operand_count": 2,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0x6d": {
+			"mnemonic": "LD",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "L",
+			"operand2": "L",
+			"operand_count": 2,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0x6e": {
+			"mnemonic": "LD",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "L",
+			"operand2": "(HL)",
+			"operand_count": 2,
+			"bytes": 1,
+			"cycles": [
+				8
+			]
+		},
+		"0x6b": {
+			"mnemonic": "LD",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "L",
+			"operand2": "E",
+			"operand_count": 2,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0x6c": {
+			"mnemonic": "LD",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "L",
+			"operand2": "H",
+			"operand_count": 2,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0x6a": {
+			"mnemonic": "LD",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "L",
+			"operand2": "D",
+			"operand_count": 2,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0x79": {
+			"mnemonic": "LD",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "A",
+			"operand2": "C",
+			"operand_count": 2,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0x78": {
+			"mnemonic": "LD",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "A",
+			"operand2": "B",
+			"operand_count": 2,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0x71": {
+			"mnemonic": "LD",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "(HL)",
+			"operand2": "C",
+			"operand_count": 2,
+			"bytes": 1,
+			"cycles": [
+				8
+			]
+		},
+		"0x70": {
+			"mnemonic": "LD",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "(HL)",
+			"operand2": "B",
+			"operand_count": 2,
+			"bytes": 1,
+			"cycles": [
+				8
+			]
+		},
+		"0x73": {
+			"mnemonic": "LD",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "(HL)",
+			"operand2": "E",
+			"operand_count": 2,
+			"bytes": 1,
+			"cycles": [
+				8
+			]
+		},
+		"0x72": {
+			"mnemonic": "LD",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "(HL)",
+			"operand2": "D",
+			"operand_count": 2,
+			"bytes": 1,
+			"cycles": [
+				8
+			]
+		},
+		"0x75": {
+			"mnemonic": "LD",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "(HL)",
+			"operand2": "L",
+			"operand_count": 2,
+			"bytes": 1,
+			"cycles": [
+				8
+			]
+		},
+		"0x74": {
+			"mnemonic": "LD",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "(HL)",
+			"operand2": "H",
+			"operand_count": 2,
+			"bytes": 1,
+			"cycles": [
+				8
+			]
+		},
+		"0x77": {
+			"mnemonic": "LD",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "(HL)",
+			"operand2": "A",
+			"operand_count": 2,
+			"bytes": 1,
+			"cycles": [
+				8
+			]
+		},
+		"0x76": {
+			"mnemonic": "HALT",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand_count": 0,
+			"cycles": [
+				4
+			],
+			"bytes": 1
+		},
+		"0xc5": {
+			"mnemonic": "PUSH",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "BC",
+			"operand_count": 1,
+			"bytes": 1,
+			"cycles": [
+				16
+			]
+		},
+		"0xc4": {
+			"mnemonic": "CALL",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "NZ",
+			"operand2": "a16",
+			"operand_count": 2,
+			"bytes": 3,
+			"cycles": [
+				24,
+				12
+			]
+		},
+		"0xc7": {
+			"mnemonic": "RST",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "00H",
+			"operand_count": 1,
+			"bytes": 1,
+			"cycles": [
+				16
+			]
+		},
+		"0xc6": {
+			"mnemonic": "ADD",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"H",
+				"C"
+			],
+			"operand1": "A",
+			"operand2": "d8",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0xc1": {
+			"mnemonic": "POP",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "BC",
+			"operand_count": 1,
+			"bytes": 1,
+			"cycles": [
+				12
+			]
+		},
+		"0x8b": {
+			"mnemonic": "ADC",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"H",
+				"C"
+			],
+			"operand1": "A",
+			"operand2": "E",
+			"operand_count": 2,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0xc3": {
+			"mnemonic": "JP",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "a16",
+			"operand_count": 1,
+			"bytes": 3,
+			"cycles": [
+				16
+			]
+		},
+		"0xc2": {
+			"mnemonic": "JP",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "NZ",
+			"operand2": "a16",
+			"operand_count": 2,
+			"bytes": 3,
+			"cycles": [
+				16,
+				12
+			]
+		},
+		"0xbb": {
+			"mnemonic": "CP",
+			"flags_ZHNC": [
+				"Z",
+				"1",
+				"H",
+				"C"
+			],
+			"operand1": "E",
+			"operand_count": 1,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0xbc": {
+			"mnemonic": "CP",
+			"flags_ZHNC": [
+				"Z",
+				"1",
+				"H",
+				"C"
+			],
+			"operand1": "H",
+			"operand_count": 1,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0x8c": {
+			"mnemonic": "ADC",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"H",
+				"C"
+			],
+			"operand1": "A",
+			"operand2": "H",
+			"operand_count": 2,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0xbf": {
+			"mnemonic": "CP",
+			"flags_ZHNC": [
+				"Z",
+				"1",
+				"H",
+				"C"
+			],
+			"operand1": "A",
+			"operand_count": 1,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0xc8": {
+			"mnemonic": "RET",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "Z",
+			"operand_count": 1,
+			"bytes": 1,
+			"cycles": [
+				20,
+				8
+			]
+		},
+		"0xbd": {
+			"mnemonic": "CP",
+			"flags_ZHNC": [
+				"Z",
+				"1",
+				"H",
+				"C"
+			],
+			"operand1": "L",
+			"operand_count": 1,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0xbe": {
+			"mnemonic": "CP",
+			"flags_ZHNC": [
+				"Z",
+				"1",
+				"H",
+				"C"
+			],
+			"operand1": "(HL)",
+			"operand_count": 1,
+			"bytes": 1,
+			"cycles": [
+				8
+			]
+		},
+		"0xf1": {
+			"mnemonic": "POP",
+			"flags_ZHNC": [
+				"Z",
+				"N",
+				"H",
+				"C"
+			],
+			"operand1": "AF",
+			"operand_count": 1,
+			"bytes": 1,
+			"cycles": [
+				12
+			]
+		},
+		"0xee": {
+			"mnemonic": "XOR",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"0",
+				"0"
+			],
+			"operand1": "d8",
+			"operand_count": 1,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0xea": {
+			"mnemonic": "LD",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "(a16)",
+			"operand2": "A",
+			"operand_count": 2,
+			"bytes": 3,
+			"cycles": [
+				16
+			]
+		},
+		"0xf8": {
+			"mnemonic": "LD",
+			"flags_ZHNC": [
+				"0",
+				"0",
+				"H",
+				"C"
+			],
+			"operand1": "HL",
+			"operand2": "SP+r8",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				12
+			]
+		},
+		"0xc9": {
+			"mnemonic": "RET",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand_count": 0,
+			"cycles": [
+				16
+			],
+			"bytes": 1
+		},
+		"0xf3": {
+			"mnemonic": "DI",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand_count": 0,
+			"cycles": [
+				4
+			],
+			"bytes": 1
+		},
+		"0xd0": {
+			"mnemonic": "RET",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "NC",
+			"operand_count": 1,
+			"bytes": 1,
+			"cycles": [
+				20,
+				8
+			]
+		},
+		"0x9f": {
+			"mnemonic": "SBC",
+			"flags_ZHNC": [
+				"Z",
+				"1",
+				"H",
+				"C"
+			],
+			"operand1": "A",
+			"operand2": "A",
+			"operand_count": 2,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0x9e": {
+			"mnemonic": "SBC",
+			"flags_ZHNC": [
+				"Z",
+				"1",
+				"H",
+				"C"
+			],
+			"operand1": "A",
+			"operand2": "(HL)",
+			"operand_count": 2,
+			"bytes": 1,
+			"cycles": [
+				8
+			]
+		},
+		"0x9d": {
+			"mnemonic": "SBC",
+			"flags_ZHNC": [
+				"Z",
+				"1",
+				"H",
+				"C"
+			],
+			"operand1": "A",
+			"operand2": "L",
+			"operand_count": 2,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0x9c": {
+			"mnemonic": "SBC",
+			"flags_ZHNC": [
+				"Z",
+				"1",
+				"H",
+				"C"
+			],
+			"operand1": "A",
+			"operand2": "H",
+			"operand_count": 2,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0x9b": {
+			"mnemonic": "SBC",
+			"flags_ZHNC": [
+				"Z",
+				"1",
+				"H",
+				"C"
+			],
+			"operand1": "A",
+			"operand2": "E",
+			"operand_count": 2,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0x9a": {
+			"mnemonic": "SBC",
+			"flags_ZHNC": [
+				"Z",
+				"1",
+				"H",
+				"C"
+			],
+			"operand1": "A",
+			"operand2": "D",
+			"operand_count": 2,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0xd8": {
+			"mnemonic": "RET",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "C",
+			"operand_count": 1,
+			"bytes": 1,
+			"cycles": [
+				20,
+				8
+			]
+		},
+		"0xd9": {
+			"mnemonic": "RETI",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand_count": 0,
+			"cycles": [
+				16
+			],
+			"bytes": 1
+		},
+		"0xdA": {
+			"mnemonic": "JP",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "C",
+			"operand2": "a16",
+			"operand_count": 2,
+			"bytes": 3,
+			"cycles": [
+				16,
+				12
+			]
+		},
+		"0xde": {
+			"mnemonic": "SBC",
+			"flags_ZHNC": [
+				"Z",
+				"1",
+				"H",
+				"C"
+			],
+			"operand1": "A",
+			"operand2": "d8",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x84": {
+			"mnemonic": "ADD",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"H",
+				"C"
+			],
+			"operand1": "A",
+			"operand2": "H",
+			"operand_count": 2,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0x85": {
+			"mnemonic": "ADD",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"H",
+				"C"
+			],
+			"operand1": "A",
+			"operand2": "L",
+			"operand_count": 2,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0x86": {
+			"mnemonic": "ADD",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"H",
+				"C"
+			],
+			"operand1": "A",
+			"operand2": "(HL)",
+			"operand_count": 2,
+			"bytes": 1,
+			"cycles": [
+				8
+			]
+		},
+		"0x87": {
+			"mnemonic": "ADD",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"H",
+				"C"
+			],
+			"operand1": "A",
+			"operand2": "A",
+			"operand_count": 2,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0x80": {
+			"mnemonic": "ADD",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"H",
+				"C"
+			],
+			"operand1": "A",
+			"operand2": "B",
+			"operand_count": 2,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0x81": {
+			"mnemonic": "ADD",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"H",
+				"C"
+			],
+			"operand1": "A",
+			"operand2": "C",
+			"operand_count": 2,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0x82": {
+			"mnemonic": "ADD",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"H",
+				"C"
+			],
+			"operand1": "A",
+			"operand2": "D",
+			"operand_count": 2,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0x83": {
+			"mnemonic": "ADD",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"H",
+				"C"
+			],
+			"operand1": "A",
+			"operand2": "E",
+			"operand_count": 2,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0x1f": {
+			"mnemonic": "RRA",
+			"flags_ZHNC": [
+				"0",
+				"0",
+				"0",
+				"C"
+			],
+			"operand_count": 0,
+			"cycles": [
+				4
+			],
+			"bytes": 1
+		},
+		"0x1e": {
+			"mnemonic": "LD",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "E",
+			"operand2": "d8",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x1d": {
+			"mnemonic": "DEC",
+			"flags_ZHNC": [
+				"Z",
+				"1",
+				"H",
+				"-"
+			],
+			"operand1": "E",
+			"operand_count": 1,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0x1c": {
+			"mnemonic": "INC",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"H",
+				"-"
+			],
+			"operand1": "E",
+			"operand_count": 1,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0x1b": {
+			"mnemonic": "DEC",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "DE",
+			"operand_count": 1,
+			"bytes": 1,
+			"cycles": [
+				8
+			]
+		},
+		"0x1a": {
+			"mnemonic": "LD",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "A",
+			"operand2": "(DE)",
+			"operand_count": 2,
+			"bytes": 1,
+			"cycles": [
+				8
+			]
+		},
+		"0xd1": {
+			"mnemonic": "POP",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "DE",
+			"operand_count": 1,
+			"bytes": 1,
+			"cycles": [
+				12
+			]
+		},
+		"0xd2": {
+			"mnemonic": "JP",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "NC",
+			"operand2": "a16",
+			"operand_count": 2,
+			"bytes": 3,
+			"cycles": [
+				16,
+				12
+			]
+		},
+		"0xd4": {
+			"mnemonic": "CALL",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "NC",
+			"operand2": "a16",
+			"operand_count": 2,
+			"bytes": 3,
+			"cycles": [
+				24,
+				12
+			]
+		},
+		"0xd5": {
+			"mnemonic": "PUSH",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "DE",
+			"operand_count": 1,
+			"bytes": 1,
+			"cycles": [
+				16
+			]
+		},
+		"0xd6": {
+			"mnemonic": "SUB",
+			"flags_ZHNC": [
+				"Z",
+				"1",
+				"H",
+				"C"
+			],
+			"operand1": "d8",
+			"operand_count": 1,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x8d": {
+			"mnemonic": "ADC",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"H",
+				"C"
+			],
+			"operand1": "A",
+			"operand2": "L",
+			"operand_count": 2,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0x8e": {
+			"mnemonic": "ADC",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"H",
+				"C"
+			],
+			"operand1": "A",
+			"operand2": "(HL)",
+			"operand_count": 2,
+			"bytes": 1,
+			"cycles": [
+				8
+			]
+		},
+		"0x8f": {
+			"mnemonic": "ADC",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"H",
+				"C"
+			],
+			"operand1": "A",
+			"operand2": "A",
+			"operand_count": 2,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0xe0": {
+			"mnemonic": "LDH",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "(a8)",
+			"operand2": "A",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				12
+			]
+		},
+		"0xe9": {
+			"mnemonic": "JP",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "(HL)",
+			"operand_count": 1,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0x8a": {
+			"mnemonic": "ADC",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"H",
+				"C"
+			],
+			"operand1": "A",
+			"operand2": "D",
+			"operand_count": 2,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0x19": {
+			"mnemonic": "ADD",
+			"flags_ZHNC": [
+				"-",
+				"0",
+				"H",
+				"C"
+			],
+			"operand1": "HL",
+			"operand2": "DE",
+			"operand_count": 2,
+			"bytes": 1,
+			"cycles": [
+				8
+			]
+		},
+		"0x18": {
+			"mnemonic": "JR",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "r8",
+			"operand_count": 1,
+			"bytes": 2,
+			"cycles": [
+				12
+			]
+		},
+		"0x17": {
+			"mnemonic": "RLA",
+			"flags_ZHNC": [
+				"0",
+				"0",
+				"0",
+				"C"
+			],
+			"operand_count": 0,
+			"cycles": [
+				4
+			],
+			"bytes": 1
+		},
+		"0x16": {
+			"mnemonic": "LD",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "D",
+			"operand2": "d8",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x15": {
+			"mnemonic": "DEC",
+			"flags_ZHNC": [
+				"Z",
+				"1",
+				"H",
+				"-"
+			],
+			"operand1": "D",
+			"operand_count": 1,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0x14": {
+			"mnemonic": "INC",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"H",
+				"-"
+			],
+			"operand1": "D",
+			"operand_count": 1,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0x13": {
+			"mnemonic": "INC",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "DE",
+			"operand_count": 1,
+			"bytes": 1,
+			"cycles": [
+				8
+			]
+		},
+		"0x12": {
+			"mnemonic": "LD",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "(DE)",
+			"operand2": "A",
+			"operand_count": 2,
+			"bytes": 1,
+			"cycles": [
+				8
+			]
+		},
+		"0x11": {
+			"mnemonic": "LD",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "DE",
+			"operand2": "d16",
+			"operand_count": 2,
+			"bytes": 3,
+			"cycles": [
+				12
+			]
+		},
+		"0x10": {
+			"mnemonic": "STOP",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "0",
+			"operand_count": 1,
+			"bytes": 2,
+			"cycles": [
+				4
+			]
+		},
+		"0x97": {
+			"mnemonic": "SUB",
+			"flags_ZHNC": [
+				"Z",
+				"1",
+				"H",
+				"C"
+			],
+			"operand1": "A",
+			"operand_count": 1,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0x96": {
+			"mnemonic": "SUB",
+			"flags_ZHNC": [
+				"Z",
+				"1",
+				"H",
+				"C"
+			],
+			"operand1": "(HL)",
+			"operand_count": 1,
+			"bytes": 1,
+			"cycles": [
+				8
+			]
+		},
+		"0x95": {
+			"mnemonic": "SUB",
+			"flags_ZHNC": [
+				"Z",
+				"1",
+				"H",
+				"C"
+			],
+			"operand1": "L",
+			"operand_count": 1,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0x94": {
+			"mnemonic": "SUB",
+			"flags_ZHNC": [
+				"Z",
+				"1",
+				"H",
+				"C"
+			],
+			"operand1": "H",
+			"operand_count": 1,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0x93": {
+			"mnemonic": "SUB",
+			"flags_ZHNC": [
+				"Z",
+				"1",
+				"H",
+				"C"
+			],
+			"operand1": "E",
+			"operand_count": 1,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0x92": {
+			"mnemonic": "SUB",
+			"flags_ZHNC": [
+				"Z",
+				"1",
+				"H",
+				"C"
+			],
+			"operand1": "D",
+			"operand_count": 1,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0x91": {
+			"mnemonic": "SUB",
+			"flags_ZHNC": [
+				"Z",
+				"1",
+				"H",
+				"C"
+			],
+			"operand1": "C",
+			"operand_count": 1,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0x90": {
+			"mnemonic": "SUB",
+			"flags_ZHNC": [
+				"Z",
+				"1",
+				"H",
+				"C"
+			],
+			"operand1": "B",
+			"operand_count": 1,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0x99": {
+			"mnemonic": "SBC",
+			"flags_ZHNC": [
+				"Z",
+				"1",
+				"H",
+				"C"
+			],
+			"operand1": "A",
+			"operand2": "C",
+			"operand_count": 2,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		},
+		"0x98": {
+			"mnemonic": "SBC",
+			"flags_ZHNC": [
+				"Z",
+				"1",
+				"H",
+				"C"
+			],
+			"operand1": "A",
+			"operand2": "B",
+			"operand_count": 2,
+			"bytes": 1,
+			"cycles": [
+				4
+			]
+		}
+	},
+	"cbprefixed": {
+		"0x3e": {
+			"mnemonic": "SRL",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"0",
+				"C"
+			],
+			"operand1": "(HL)",
+			"operand_count": 1,
+			"bytes": 2,
+			"cycles": [
+				16
+			]
+		},
+		"0x3d": {
+			"mnemonic": "SRL",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"0",
+				"C"
+			],
+			"operand1": "L",
+			"operand_count": 1,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0xe4": {
+			"mnemonic": "SET",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "4",
+			"operand2": "H",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x3f": {
+			"mnemonic": "SRL",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"0",
+				"C"
+			],
+			"operand1": "A",
+			"operand_count": 1,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x3a": {
+			"mnemonic": "SRL",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"0",
+				"C"
+			],
+			"operand1": "D",
+			"operand_count": 1,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x3c": {
+			"mnemonic": "SRL",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"0",
+				"C"
+			],
+			"operand1": "H",
+			"operand_count": 1,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x3b": {
+			"mnemonic": "SRL",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"0",
+				"C"
+			],
+			"operand1": "E",
+			"operand_count": 1,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0xff": {
+			"mnemonic": "SET",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "7",
+			"operand2": "A",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0xfa": {
+			"mnemonic": "SET",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "7",
+			"operand2": "D",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0xda": {
+			"mnemonic": "SET",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "3",
+			"operand2": "D",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0xec": {
+			"mnemonic": "SET",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "5",
+			"operand2": "H",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x28": {
+			"mnemonic": "SRA",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"0",
+				"0"
+			],
+			"operand1": "B",
+			"operand_count": 1,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x29": {
+			"mnemonic": "SRA",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"0",
+				"0"
+			],
+			"operand1": "C",
+			"operand_count": 1,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0xcf": {
+			"mnemonic": "SET",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "1",
+			"operand2": "A",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0xf8": {
+			"mnemonic": "SET",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "7",
+			"operand2": "B",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0xeb": {
+			"mnemonic": "SET",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "5",
+			"operand2": "E",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x22": {
+			"mnemonic": "SLA",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"0",
+				"C"
+			],
+			"operand1": "D",
+			"operand_count": 1,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x23": {
+			"mnemonic": "SLA",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"0",
+				"C"
+			],
+			"operand1": "E",
+			"operand_count": 1,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x20": {
+			"mnemonic": "SLA",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"0",
+				"C"
+			],
+			"operand1": "B",
+			"operand_count": 1,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x21": {
+			"mnemonic": "SLA",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"0",
+				"C"
+			],
+			"operand1": "C",
+			"operand_count": 1,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x26": {
+			"mnemonic": "SLA",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"0",
+				"C"
+			],
+			"operand1": "(HL)",
+			"operand_count": 1,
+			"bytes": 2,
+			"cycles": [
+				16
+			]
+		},
+		"0x27": {
+			"mnemonic": "SLA",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"0",
+				"C"
+			],
+			"operand1": "A",
+			"operand_count": 1,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x24": {
+			"mnemonic": "SLA",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"0",
+				"C"
+			],
+			"operand1": "H",
+			"operand_count": 1,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x25": {
+			"mnemonic": "SLA",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"0",
+				"C"
+			],
+			"operand1": "L",
+			"operand_count": 1,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0xba": {
+			"mnemonic": "RES",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "7",
+			"operand2": "D",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0xef": {
+			"mnemonic": "SET",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "5",
+			"operand2": "A",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0xe2": {
+			"mnemonic": "SET",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "4",
+			"operand2": "D",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0xee": {
+			"mnemonic": "SET",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "5",
+			"operand2": "(HL)",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				16
+			]
+		},
+		"0xed": {
+			"mnemonic": "SET",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "5",
+			"operand2": "L",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x7d": {
+			"mnemonic": "BIT",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"1",
+				"-"
+			],
+			"operand1": "7",
+			"operand2": "L",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x35": {
+			"mnemonic": "SWAP",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"0",
+				"0"
+			],
+			"operand1": "L",
+			"operand_count": 1,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x34": {
+			"mnemonic": "SWAP",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"0",
+				"0"
+			],
+			"operand1": "H",
+			"operand_count": 1,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x37": {
+			"mnemonic": "SWAP",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"0",
+				"0"
+			],
+			"operand1": "A",
+			"operand_count": 1,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x36": {
+			"mnemonic": "SWAP",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"0",
+				"0"
+			],
+			"operand1": "(HL)",
+			"operand_count": 1,
+			"bytes": 2,
+			"cycles": [
+				16
+			]
+		},
+		"0x31": {
+			"mnemonic": "SWAP",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"0",
+				"0"
+			],
+			"operand1": "C",
+			"operand_count": 1,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x30": {
+			"mnemonic": "SWAP",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"0",
+				"0"
+			],
+			"operand1": "B",
+			"operand_count": 1,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x33": {
+			"mnemonic": "SWAP",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"0",
+				"0"
+			],
+			"operand1": "E",
+			"operand_count": 1,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x32": {
+			"mnemonic": "SWAP",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"0",
+				"0"
+			],
+			"operand1": "D",
+			"operand_count": 1,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x39": {
+			"mnemonic": "SRL",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"0",
+				"C"
+			],
+			"operand1": "C",
+			"operand_count": 1,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x38": {
+			"mnemonic": "SRL",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"0",
+				"C"
+			],
+			"operand1": "B",
+			"operand_count": 1,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0xc0": {
+			"mnemonic": "SET",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "0",
+			"operand2": "B",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0xe1": {
+			"mnemonic": "SET",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "4",
+			"operand2": "C",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0xfe": {
+			"mnemonic": "SET",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "7",
+			"operand2": "(HL)",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				16
+			]
+		},
+		"0x88": {
+			"mnemonic": "RES",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "1",
+			"operand2": "B",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0xdd": {
+			"mnemonic": "SET",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "3",
+			"operand2": "L",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x89": {
+			"mnemonic": "RES",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "1",
+			"operand2": "C",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x2b": {
+			"mnemonic": "SRA",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"0",
+				"0"
+			],
+			"operand1": "E",
+			"operand_count": 1,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x2c": {
+			"mnemonic": "SRA",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"0",
+				"0"
+			],
+			"operand1": "H",
+			"operand_count": 1,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0xfd": {
+			"mnemonic": "SET",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "7",
+			"operand2": "L",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x2a": {
+			"mnemonic": "SRA",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"0",
+				"0"
+			],
+			"operand1": "D",
+			"operand_count": 1,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x2f": {
+			"mnemonic": "SRA",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"0",
+				"0"
+			],
+			"operand1": "A",
+			"operand_count": 1,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0xfc": {
+			"mnemonic": "SET",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "7",
+			"operand2": "H",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x2d": {
+			"mnemonic": "SRA",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"0",
+				"0"
+			],
+			"operand1": "L",
+			"operand_count": 1,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x2e": {
+			"mnemonic": "SRA",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"0",
+				"0"
+			],
+			"operand1": "(HL)",
+			"operand_count": 1,
+			"bytes": 2,
+			"cycles": [
+				16
+			]
+		},
+		"0x5c": {
+			"mnemonic": "BIT",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"1",
+				"-"
+			],
+			"operand1": "3",
+			"operand2": "H",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x5b": {
+			"mnemonic": "BIT",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"1",
+				"-"
+			],
+			"operand1": "3",
+			"operand2": "E",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x09": {
+			"mnemonic": "RRC",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"0",
+				"C"
+			],
+			"operand1": "C",
+			"operand_count": 1,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x08": {
+			"mnemonic": "RRC",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"0",
+				"C"
+			],
+			"operand1": "B",
+			"operand_count": 1,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x5f": {
+			"mnemonic": "BIT",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"1",
+				"-"
+			],
+			"operand1": "3",
+			"operand2": "A",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x5e": {
+			"mnemonic": "BIT",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"1",
+				"-"
+			],
+			"operand1": "3",
+			"operand2": "(HL)",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				16
+			]
+		},
+		"0x5d": {
+			"mnemonic": "BIT",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"1",
+				"-"
+			],
+			"operand1": "3",
+			"operand2": "L",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x03": {
+			"mnemonic": "RLC",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"0",
+				"C"
+			],
+			"operand1": "E",
+			"operand_count": 1,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x02": {
+			"mnemonic": "RLC",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"0",
+				"C"
+			],
+			"operand1": "D",
+			"operand_count": 1,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x01": {
+			"mnemonic": "RLC",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"0",
+				"C"
+			],
+			"operand1": "C",
+			"operand_count": 1,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x00": {
+			"mnemonic": "RLC",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"0",
+				"C"
+			],
+			"operand1": "B",
+			"operand_count": 1,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x07": {
+			"mnemonic": "RLC",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"0",
+				"C"
+			],
+			"operand1": "A",
+			"operand_count": 1,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x06": {
+			"mnemonic": "RLC",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"0",
+				"C"
+			],
+			"operand1": "(HL)",
+			"operand_count": 1,
+			"bytes": 2,
+			"cycles": [
+				16
+			]
+		},
+		"0x05": {
+			"mnemonic": "RLC",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"0",
+				"C"
+			],
+			"operand1": "L",
+			"operand_count": 1,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x04": {
+			"mnemonic": "RLC",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"0",
+				"C"
+			],
+			"operand1": "H",
+			"operand_count": 1,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x40": {
+			"mnemonic": "BIT",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"1",
+				"-"
+			],
+			"operand1": "0",
+			"operand2": "B",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x41": {
+			"mnemonic": "BIT",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"1",
+				"-"
+			],
+			"operand1": "0",
+			"operand2": "C",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x42": {
+			"mnemonic": "BIT",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"1",
+				"-"
+			],
+			"operand1": "0",
+			"operand2": "D",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x43": {
+			"mnemonic": "BIT",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"1",
+				"-"
+			],
+			"operand1": "0",
+			"operand2": "E",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x44": {
+			"mnemonic": "BIT",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"1",
+				"-"
+			],
+			"operand1": "0",
+			"operand2": "H",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x45": {
+			"mnemonic": "BIT",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"1",
+				"-"
+			],
+			"operand1": "0",
+			"operand2": "L",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x46": {
+			"mnemonic": "BIT",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"1",
+				"-"
+			],
+			"operand1": "0",
+			"operand2": "(HL)",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				16
+			]
+		},
+		"0x47": {
+			"mnemonic": "BIT",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"1",
+				"-"
+			],
+			"operand1": "0",
+			"operand2": "A",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x48": {
+			"mnemonic": "BIT",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"1",
+				"-"
+			],
+			"operand1": "1",
+			"operand2": "B",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x49": {
+			"mnemonic": "BIT",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"1",
+				"-"
+			],
+			"operand1": "1",
+			"operand2": "C",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0xe5": {
+			"mnemonic": "SET",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "4",
+			"operand2": "L",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0xaf": {
+			"mnemonic": "RES",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "5",
+			"operand2": "A",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0xae": {
+			"mnemonic": "RES",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "5",
+			"operand2": "(HL)",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				16
+			]
+		},
+		"0xad": {
+			"mnemonic": "RES",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "5",
+			"operand2": "L",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0xac": {
+			"mnemonic": "RES",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "5",
+			"operand2": "H",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0xab": {
+			"mnemonic": "RES",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "5",
+			"operand2": "E",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0xaa": {
+			"mnemonic": "RES",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "5",
+			"operand2": "D",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x63": {
+			"mnemonic": "BIT",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"1",
+				"-"
+			],
+			"operand1": "4",
+			"operand2": "E",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0xe6": {
+			"mnemonic": "SET",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "4",
+			"operand2": "(HL)",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				16
+			]
+		},
+		"0xea": {
+			"mnemonic": "SET",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "5",
+			"operand2": "D",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x4a": {
+			"mnemonic": "BIT",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"1",
+				"-"
+			],
+			"operand1": "1",
+			"operand2": "D",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x4b": {
+			"mnemonic": "BIT",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"1",
+				"-"
+			],
+			"operand1": "1",
+			"operand2": "E",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x4c": {
+			"mnemonic": "BIT",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"1",
+				"-"
+			],
+			"operand1": "1",
+			"operand2": "H",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x4d": {
+			"mnemonic": "BIT",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"1",
+				"-"
+			],
+			"operand1": "1",
+			"operand2": "L",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x4e": {
+			"mnemonic": "BIT",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"1",
+				"-"
+			],
+			"operand1": "1",
+			"operand2": "(HL)",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				16
+			]
+		},
+		"0x4f": {
+			"mnemonic": "BIT",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"1",
+				"-"
+			],
+			"operand1": "1",
+			"operand2": "A",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x53": {
+			"mnemonic": "BIT",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"1",
+				"-"
+			],
+			"operand1": "2",
+			"operand2": "E",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x52": {
+			"mnemonic": "BIT",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"1",
+				"-"
+			],
+			"operand1": "2",
+			"operand2": "D",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x51": {
+			"mnemonic": "BIT",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"1",
+				"-"
+			],
+			"operand1": "2",
+			"operand2": "C",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x50": {
+			"mnemonic": "BIT",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"1",
+				"-"
+			],
+			"operand1": "2",
+			"operand2": "B",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x57": {
+			"mnemonic": "BIT",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"1",
+				"-"
+			],
+			"operand1": "2",
+			"operand2": "A",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x56": {
+			"mnemonic": "BIT",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"1",
+				"-"
+			],
+			"operand1": "2",
+			"operand2": "(HL)",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				16
+			]
+		},
+		"0x55": {
+			"mnemonic": "BIT",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"1",
+				"-"
+			],
+			"operand1": "2",
+			"operand2": "L",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x54": {
+			"mnemonic": "BIT",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"1",
+				"-"
+			],
+			"operand1": "2",
+			"operand2": "H",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x0c": {
+			"mnemonic": "RRC",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"0",
+				"C"
+			],
+			"operand1": "H",
+			"operand_count": 1,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x0b": {
+			"mnemonic": "RRC",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"0",
+				"C"
+			],
+			"operand1": "E",
+			"operand_count": 1,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x0a": {
+			"mnemonic": "RRC",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"0",
+				"C"
+			],
+			"operand1": "D",
+			"operand_count": 1,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x58": {
+			"mnemonic": "BIT",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"1",
+				"-"
+			],
+			"operand1": "3",
+			"operand2": "B",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x0f": {
+			"mnemonic": "RRC",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"0",
+				"C"
+			],
+			"operand1": "A",
+			"operand_count": 1,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x0e": {
+			"mnemonic": "RRC",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"0",
+				"C"
+			],
+			"operand1": "(HL)",
+			"operand_count": 1,
+			"bytes": 2,
+			"cycles": [
+				16
+			]
+		},
+		"0x0d": {
+			"mnemonic": "RRC",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"0",
+				"C"
+			],
+			"operand1": "L",
+			"operand_count": 1,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0xf4": {
+			"mnemonic": "SET",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "6",
+			"operand2": "H",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0xfb": {
+			"mnemonic": "SET",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "7",
+			"operand2": "E",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0xdc": {
+			"mnemonic": "SET",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "3",
+			"operand2": "H",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0xf9": {
+			"mnemonic": "SET",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "7",
+			"operand2": "C",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0xf6": {
+			"mnemonic": "SET",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "6",
+			"operand2": "(HL)",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				16
+			]
+		},
+		"0xa9": {
+			"mnemonic": "RES",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "5",
+			"operand2": "C",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0xa8": {
+			"mnemonic": "RES",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "5",
+			"operand2": "B",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0xa7": {
+			"mnemonic": "RES",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "4",
+			"operand2": "A",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0xa6": {
+			"mnemonic": "RES",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "4",
+			"operand2": "(HL)",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				16
+			]
+		},
+		"0xa5": {
+			"mnemonic": "RES",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "4",
+			"operand2": "L",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0xa4": {
+			"mnemonic": "RES",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "4",
+			"operand2": "H",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0xa3": {
+			"mnemonic": "RES",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "4",
+			"operand2": "E",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0xa2": {
+			"mnemonic": "RES",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "4",
+			"operand2": "D",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0xa1": {
+			"mnemonic": "RES",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "4",
+			"operand2": "C",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0xa0": {
+			"mnemonic": "RES",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "4",
+			"operand2": "B",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0xf5": {
+			"mnemonic": "SET",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "6",
+			"operand2": "L",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x7a": {
+			"mnemonic": "BIT",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"1",
+				"-"
+			],
+			"operand1": "7",
+			"operand2": "D",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0xf2": {
+			"mnemonic": "SET",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "6",
+			"operand2": "D",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x7c": {
+			"mnemonic": "BIT",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"1",
+				"-"
+			],
+			"operand1": "7",
+			"operand2": "H",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x7b": {
+			"mnemonic": "BIT",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"1",
+				"-"
+			],
+			"operand1": "7",
+			"operand2": "E",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x7e": {
+			"mnemonic": "BIT",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"1",
+				"-"
+			],
+			"operand1": "7",
+			"operand2": "(HL)",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				16
+			]
+		},
+		"0x5a": {
+			"mnemonic": "BIT",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"1",
+				"-"
+			],
+			"operand1": "3",
+			"operand2": "D",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x7f": {
+			"mnemonic": "BIT",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"1",
+				"-"
+			],
+			"operand1": "7",
+			"operand2": "A",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0xf0": {
+			"mnemonic": "SET",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "6",
+			"operand2": "B",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x68": {
+			"mnemonic": "BIT",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"1",
+				"-"
+			],
+			"operand1": "5",
+			"operand2": "B",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x69": {
+			"mnemonic": "BIT",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"1",
+				"-"
+			],
+			"operand1": "5",
+			"operand2": "C",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x66": {
+			"mnemonic": "BIT",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"1",
+				"-"
+			],
+			"operand1": "4",
+			"operand2": "(HL)",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				16
+			]
+		},
+		"0x67": {
+			"mnemonic": "BIT",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"1",
+				"-"
+			],
+			"operand1": "4",
+			"operand2": "A",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x64": {
+			"mnemonic": "BIT",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"1",
+				"-"
+			],
+			"operand1": "4",
+			"operand2": "H",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x65": {
+			"mnemonic": "BIT",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"1",
+				"-"
+			],
+			"operand1": "4",
+			"operand2": "L",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x62": {
+			"mnemonic": "BIT",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"1",
+				"-"
+			],
+			"operand1": "4",
+			"operand2": "D",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x59": {
+			"mnemonic": "BIT",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"1",
+				"-"
+			],
+			"operand1": "3",
+			"operand2": "C",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x60": {
+			"mnemonic": "BIT",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"1",
+				"-"
+			],
+			"operand1": "4",
+			"operand2": "B",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x61": {
+			"mnemonic": "BIT",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"1",
+				"-"
+			],
+			"operand1": "4",
+			"operand2": "C",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0xce": {
+			"mnemonic": "SET",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "1",
+			"operand2": "(HL)",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				16
+			]
+		},
+		"0xcd": {
+			"mnemonic": "SET",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "1",
+			"operand2": "L",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0xb8": {
+			"mnemonic": "RES",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "7",
+			"operand2": "B",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0xb9": {
+			"mnemonic": "RES",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "7",
+			"operand2": "C",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0xca": {
+			"mnemonic": "SET",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "1",
+			"operand2": "D",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0xcc": {
+			"mnemonic": "SET",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "1",
+			"operand2": "H",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0xcb": {
+			"mnemonic": "SET",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "1",
+			"operand2": "E",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0xb2": {
+			"mnemonic": "RES",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "6",
+			"operand2": "D",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0xb3": {
+			"mnemonic": "RES",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "6",
+			"operand2": "E",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0xb0": {
+			"mnemonic": "RES",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "6",
+			"operand2": "B",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0xb1": {
+			"mnemonic": "RES",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "6",
+			"operand2": "C",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0xb6": {
+			"mnemonic": "RES",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "6",
+			"operand2": "(HL)",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				16
+			]
+		},
+		"0xb7": {
+			"mnemonic": "RES",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "6",
+			"operand2": "A",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0xb4": {
+			"mnemonic": "RES",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "6",
+			"operand2": "H",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0xb5": {
+			"mnemonic": "RES",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "6",
+			"operand2": "L",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0xe3": {
+			"mnemonic": "SET",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "4",
+			"operand2": "E",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0xd6": {
+			"mnemonic": "SET",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "2",
+			"operand2": "(HL)",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				16
+			]
+		},
+		"0x6f": {
+			"mnemonic": "BIT",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"1",
+				"-"
+			],
+			"operand1": "5",
+			"operand2": "A",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x6d": {
+			"mnemonic": "BIT",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"1",
+				"-"
+			],
+			"operand1": "5",
+			"operand2": "L",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x6e": {
+			"mnemonic": "BIT",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"1",
+				"-"
+			],
+			"operand1": "5",
+			"operand2": "(HL)",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				16
+			]
+		},
+		"0x6b": {
+			"mnemonic": "BIT",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"1",
+				"-"
+			],
+			"operand1": "5",
+			"operand2": "E",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x6c": {
+			"mnemonic": "BIT",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"1",
+				"-"
+			],
+			"operand1": "5",
+			"operand2": "H",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x6a": {
+			"mnemonic": "BIT",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"1",
+				"-"
+			],
+			"operand1": "5",
+			"operand2": "D",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x79": {
+			"mnemonic": "BIT",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"1",
+				"-"
+			],
+			"operand1": "7",
+			"operand2": "C",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x78": {
+			"mnemonic": "BIT",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"1",
+				"-"
+			],
+			"operand1": "7",
+			"operand2": "B",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x71": {
+			"mnemonic": "BIT",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"1",
+				"-"
+			],
+			"operand1": "6",
+			"operand2": "C",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x70": {
+			"mnemonic": "BIT",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"1",
+				"-"
+			],
+			"operand1": "6",
+			"operand2": "B",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x73": {
+			"mnemonic": "BIT",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"1",
+				"-"
+			],
+			"operand1": "6",
+			"operand2": "E",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x72": {
+			"mnemonic": "BIT",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"1",
+				"-"
+			],
+			"operand1": "6",
+			"operand2": "D",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x75": {
+			"mnemonic": "BIT",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"1",
+				"-"
+			],
+			"operand1": "6",
+			"operand2": "L",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x74": {
+			"mnemonic": "BIT",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"1",
+				"-"
+			],
+			"operand1": "6",
+			"operand2": "H",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x77": {
+			"mnemonic": "BIT",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"1",
+				"-"
+			],
+			"operand1": "6",
+			"operand2": "A",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x76": {
+			"mnemonic": "BIT",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"1",
+				"-"
+			],
+			"operand1": "6",
+			"operand2": "(HL)",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				16
+			]
+		},
+		"0xc5": {
+			"mnemonic": "SET",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "0",
+			"operand2": "L",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0xc4": {
+			"mnemonic": "SET",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "0",
+			"operand2": "H",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0xc7": {
+			"mnemonic": "SET",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "0",
+			"operand2": "A",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0xc6": {
+			"mnemonic": "SET",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "0",
+			"operand2": "(HL)",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				16
+			]
+		},
+		"0xc1": {
+			"mnemonic": "SET",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "0",
+			"operand2": "C",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x8b": {
+			"mnemonic": "RES",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "1",
+			"operand2": "E",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0xc3": {
+			"mnemonic": "SET",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "0",
+			"operand2": "E",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0xc2": {
+			"mnemonic": "SET",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "0",
+			"operand2": "D",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0xbb": {
+			"mnemonic": "RES",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "7",
+			"operand2": "E",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0xbc": {
+			"mnemonic": "RES",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "7",
+			"operand2": "H",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x8c": {
+			"mnemonic": "RES",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "1",
+			"operand2": "H",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0xbf": {
+			"mnemonic": "RES",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "7",
+			"operand2": "A",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0xc8": {
+			"mnemonic": "SET",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "1",
+			"operand2": "B",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0xbd": {
+			"mnemonic": "RES",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "7",
+			"operand2": "L",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0xbe": {
+			"mnemonic": "RES",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "7",
+			"operand2": "(HL)",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				16
+			]
+		},
+		"0xf1": {
+			"mnemonic": "SET",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "6",
+			"operand2": "C",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0xe9": {
+			"mnemonic": "SET",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "5",
+			"operand2": "C",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0xe8": {
+			"mnemonic": "SET",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "5",
+			"operand2": "B",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0xf7": {
+			"mnemonic": "SET",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "6",
+			"operand2": "A",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0xc9": {
+			"mnemonic": "SET",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "1",
+			"operand2": "C",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0xf3": {
+			"mnemonic": "SET",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "6",
+			"operand2": "E",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0xd0": {
+			"mnemonic": "SET",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "2",
+			"operand2": "B",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x9f": {
+			"mnemonic": "RES",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "3",
+			"operand2": "A",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x9e": {
+			"mnemonic": "RES",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "3",
+			"operand2": "(HL)",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				16
+			]
+		},
+		"0x9d": {
+			"mnemonic": "RES",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "3",
+			"operand2": "L",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x9c": {
+			"mnemonic": "RES",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "3",
+			"operand2": "H",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x9b": {
+			"mnemonic": "RES",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "3",
+			"operand2": "E",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x9a": {
+			"mnemonic": "RES",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "3",
+			"operand2": "D",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0xd7": {
+			"mnemonic": "SET",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "2",
+			"operand2": "A",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0xd8": {
+			"mnemonic": "SET",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "3",
+			"operand2": "B",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0xd9": {
+			"mnemonic": "SET",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "3",
+			"operand2": "C",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0xdb": {
+			"mnemonic": "SET",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "3",
+			"operand2": "E",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x84": {
+			"mnemonic": "RES",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "0",
+			"operand2": "H",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x85": {
+			"mnemonic": "RES",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "0",
+			"operand2": "L",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x86": {
+			"mnemonic": "RES",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "0",
+			"operand2": "(HL)",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				16
+			]
+		},
+		"0x87": {
+			"mnemonic": "RES",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "0",
+			"operand2": "A",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x80": {
+			"mnemonic": "RES",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "0",
+			"operand2": "B",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x81": {
+			"mnemonic": "RES",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "0",
+			"operand2": "C",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x82": {
+			"mnemonic": "RES",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "0",
+			"operand2": "D",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x83": {
+			"mnemonic": "RES",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "0",
+			"operand2": "E",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x1f": {
+			"mnemonic": "RR",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"0",
+				"C"
+			],
+			"operand1": "A",
+			"operand_count": 1,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x1e": {
+			"mnemonic": "RR",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"0",
+				"C"
+			],
+			"operand1": "(HL)",
+			"operand_count": 1,
+			"bytes": 2,
+			"cycles": [
+				16
+			]
+		},
+		"0x1d": {
+			"mnemonic": "RR",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"0",
+				"C"
+			],
+			"operand1": "L",
+			"operand_count": 1,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x1c": {
+			"mnemonic": "RR",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"0",
+				"C"
+			],
+			"operand1": "H",
+			"operand_count": 1,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x1b": {
+			"mnemonic": "RR",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"0",
+				"C"
+			],
+			"operand1": "E",
+			"operand_count": 1,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x1a": {
+			"mnemonic": "RR",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"0",
+				"C"
+			],
+			"operand1": "D",
+			"operand_count": 1,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0xde": {
+			"mnemonic": "SET",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "3",
+			"operand2": "(HL)",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				16
+			]
+		},
+		"0xdf": {
+			"mnemonic": "SET",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "3",
+			"operand2": "A",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0xd1": {
+			"mnemonic": "SET",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "2",
+			"operand2": "C",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0xd2": {
+			"mnemonic": "SET",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "2",
+			"operand2": "D",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0xd3": {
+			"mnemonic": "SET",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "2",
+			"operand2": "E",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0xd4": {
+			"mnemonic": "SET",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "2",
+			"operand2": "H",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0xd5": {
+			"mnemonic": "SET",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "2",
+			"operand2": "L",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x8d": {
+			"mnemonic": "RES",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "1",
+			"operand2": "L",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x8e": {
+			"mnemonic": "RES",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "1",
+			"operand2": "(HL)",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				16
+			]
+		},
+		"0x8f": {
+			"mnemonic": "RES",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "1",
+			"operand2": "A",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0xe0": {
+			"mnemonic": "SET",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "4",
+			"operand2": "B",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0xe7": {
+			"mnemonic": "SET",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "4",
+			"operand2": "A",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x8a": {
+			"mnemonic": "RES",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "1",
+			"operand2": "D",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x19": {
+			"mnemonic": "RR",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"0",
+				"C"
+			],
+			"operand1": "C",
+			"operand_count": 1,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x18": {
+			"mnemonic": "RR",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"0",
+				"C"
+			],
+			"operand1": "B",
+			"operand_count": 1,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x17": {
+			"mnemonic": "RL",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"0",
+				"C"
+			],
+			"operand1": "A",
+			"operand_count": 1,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x16": {
+			"mnemonic": "RL",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"0",
+				"C"
+			],
+			"operand1": "(HL)",
+			"operand_count": 1,
+			"bytes": 2,
+			"cycles": [
+				16
+			]
+		},
+		"0x15": {
+			"mnemonic": "RL",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"0",
+				"C"
+			],
+			"operand1": "L",
+			"operand_count": 1,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x14": {
+			"mnemonic": "RL",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"0",
+				"C"
+			],
+			"operand1": "H",
+			"operand_count": 1,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x13": {
+			"mnemonic": "RL",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"0",
+				"C"
+			],
+			"operand1": "E",
+			"operand_count": 1,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x12": {
+			"mnemonic": "RL",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"0",
+				"C"
+			],
+			"operand1": "D",
+			"operand_count": 1,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x11": {
+			"mnemonic": "RL",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"0",
+				"C"
+			],
+			"operand1": "C",
+			"operand_count": 1,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x10": {
+			"mnemonic": "RL",
+			"flags_ZHNC": [
+				"Z",
+				"0",
+				"0",
+				"C"
+			],
+			"operand1": "B",
+			"operand_count": 1,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x97": {
+			"mnemonic": "RES",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "2",
+			"operand2": "A",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x96": {
+			"mnemonic": "RES",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "2",
+			"operand2": "(HL)",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				16
+			]
+		},
+		"0x95": {
+			"mnemonic": "RES",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "2",
+			"operand2": "L",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x94": {
+			"mnemonic": "RES",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "2",
+			"operand2": "H",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x93": {
+			"mnemonic": "RES",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "2",
+			"operand2": "E",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x92": {
+			"mnemonic": "RES",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "2",
+			"operand2": "D",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x91": {
+			"mnemonic": "RES",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "2",
+			"operand2": "C",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x90": {
+			"mnemonic": "RES",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "2",
+			"operand2": "B",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x99": {
+			"mnemonic": "RES",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "3",
+			"operand2": "C",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		},
+		"0x98": {
+			"mnemonic": "RES",
+			"flags_ZHNC": [
+				"-",
+				"-",
+				"-",
+				"-"
+			],
+			"operand1": "3",
+			"operand2": "B",
+			"operand_count": 2,
+			"bytes": 2,
+			"cycles": [
+				8
+			]
+		}
+	}
+}
